@@ -12,5 +12,22 @@ const Projects = () => {
     </Layout>
   )
 }
-
 export default Projects
+
+//export page query
+/*
+export const query = graphql`
+  query ProjectsPage {
+    allMarkdownRemark {
+      nodes {
+        frontmatter {
+          slug
+          stack
+          title
+        }
+        id
+      }
+    }
+  }
+`
+*/
