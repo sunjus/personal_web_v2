@@ -7,6 +7,8 @@ export default function Projects({ data }) {
   console.log(data)
 
   const projects = data.projects.nodes
+  const contact = data.contact.siteMetadata.contact
+
   return (
     <Layout>
       <div className={styles.portfolio}>
@@ -22,6 +24,7 @@ export default function Projects({ data }) {
             </Link>
           ))}
         </div>
+        <p>Like what you see? Email me at {contact} for a quote!</p>
       </div>
     </Layout>
   )
