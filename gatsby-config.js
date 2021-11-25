@@ -20,5 +20,6 @@ module.exports = {
     title: "Sunjus",
     description: "web dev portfolio",
     copyright: "Copyright 2021 Sunjus",
+    contact: "sunjus.dev@gmail.com",
   },
 }

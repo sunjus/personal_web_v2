@@ -41,5 +41,10 @@ export const query = graphql`
         id
       }
     }
+    site {
+      siteMetadata {
+        contact
+      }
+    }
   }
 `
