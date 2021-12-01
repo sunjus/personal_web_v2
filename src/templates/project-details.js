@@ -1,9 +1,9 @@
 import React from "react"
 import Layout from "../components/Layout"
-import styles from "../styles/project-details.module.css"
+import * as styles from "../styles/project-details.module.css"
 //import { StaticImage } from "gatsby-plugin-image"
 
-export const ProjectDetails = () => {
+export default function ProjectDetails() {
   return (
     <Layout>
       <div classNam={StyleSheet.details}>
