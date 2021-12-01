@@ -6,11 +6,9 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 export default function Projects({ data }) {
   console.log(data)
-
   const projects = data.projects.nodes
   const contact = data.contact.siteMetadata.contact
-  //const image = getImage(projects[0].frontmatter.thumb)
-  //console.log(image)
+
   return (
     <Layout>
       <div className={styles.portfolio}>
