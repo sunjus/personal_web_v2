@@ -11,7 +11,7 @@ export default function ProjectDetails({ data }) {
 
   return (
     <Layout>
-      <div classNam={StyleSheet.details}>
+      <div classNam={styles.details}>
         <h2>{title}</h2>
         <h3>{stack}</h3>
       </div>
